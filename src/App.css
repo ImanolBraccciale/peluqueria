@@ -1,0 +1,30 @@
+ /* App.css */
+ @import '/node_modules/@fortawesome/fontawesome-free/css/all.css';
+
+.section {
+  transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.section.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+.text-shadow-md {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.text-shadow-lg {
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+}
+.text-shadow-l {
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+}
+html {
+  scroll-behavior: smooth;
+}
+/* Añadir a tu archivo CSS */
+#contact {
+  background: linear-gradient(to bottom, #1b1b1b, #1f1d1d);
+}
